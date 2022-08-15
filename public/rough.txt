@@ -1,0 +1,14 @@
+Install Laravel 8
+* Create 3 databases namely main, company1, company2 
+* Create users table under main database (for authentication purposes)
+* Create a category, product table in another 2 databases (company1, company2)——— using belongs to many relations in the category with product
+* Need to implement migration/seeder - create dummy data for category and product table using seeder
+* Create a login page with the main database
+
+After login: 
+
+* Need to list 2 database names (company1, company2) as a dropdown in the page header
+* when changing database name in dropdown, corresponding data (category, product) will be listing
+*Create a category listing page  Fields(category name)
+*Create a Product listing page Fields (Product name, category name, price)
+* Create Product Add Page - Fields  (Product name, category name (dropdown multi select need to implement laravel relations), price)
